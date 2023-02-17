@@ -11,3 +11,7 @@ Log - Before creating the project I am 80% sure that I can finish this project
     - tips and tricks on how to code more efficiently
     - The flexbox is a new thing to me and really made my brain go brrr to this new codes and yet I enjoyed it as I
     - think of better ways to design my other past projects which I will tackle in the near future for my portfolio
+
+    This is the info for the image I use
+
+    Photo by Pok Rie from Pexels: https://www.pexels.com/photo/aerial-view-of-green-trees-beside-body-of-water-4006534/
