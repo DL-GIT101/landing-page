@@ -101,9 +101,37 @@ h2 {
  .content p {
     text-align: center;
  }
+
 .content img {
     width: 175px;
     height: auto;
     border: 6px solid #3882f6;
     border-radius: 16px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 256px;
+
+}
+
+.card {
+    margin: auto;
+    color: #1f2937;
+    width: 850px;
+    padding-top: 24px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: right;
+    margin: 0;
 }
