@@ -1,10 +1,17 @@
-body {
-    background-color: #1f2937;
-    margin: 0 254px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #f9faf8;
+nav, .hero, .information, .quote, .sign-up, .footer {
+    padding: 0px 256px;
 }
 
+body {
+    background-color: #1f2937;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f9faf8;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+}
 img {
     width: 600px;
     height: 300px;
@@ -15,7 +22,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-content: center;
-
 }
 
 .logo {
@@ -52,10 +58,10 @@ a {
 h1 {
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
 }
 
-.secondary {
-    font-size: 18px;
+.hero p {
     color: #e5e7eb;
 }
 
@@ -67,4 +73,37 @@ button {
     border-radius: 8px;
     border: none;
     font-weight: bold;
+}
+
+.information {
+    background-color: #f9faf8;
+    color: #1f2937;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 54px 0px;
+    margin: 0;
+}
+
+.slot {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    padding-bottom: 100px;
+}
+
+.content {
+    width: 175px;
+}
+ .content p {
+    text-align: center;
+ }
+.content img {
+    width: 175px;
+    height: auto;
+    border: 6px solid #3882f6;
+    border-radius: 16px;
 }
