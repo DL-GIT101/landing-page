@@ -48,7 +48,7 @@ a {
 .hero {
     display: flex;
     gap: 16px;
-    margin: 128px 0px;
+    padding: 128px;
 }
 
 h1 {
@@ -69,6 +69,7 @@ button {
     border-radius: 8px;
     border: none;
     font-weight: bold;
+    margin: 16px 0px;
 }
 
 .information {
@@ -165,17 +166,13 @@ h3 {
     border: 2px solid #f9faf8;
     font-size: 24px;
     padding: 8px 32px;
+    margin: 0;
 }
 
 h4 {
     font-size: 30px;
     font-weight: 900;
     margin: 0px;
-}
-
-nav, .hero, .information, .quote, .sign-up, .footer {
-    padding-left: 256px;
-    padding-right: 256px;
 }
 
 .footer{
@@ -185,4 +182,9 @@ nav, .hero, .information, .quote, .sign-up, .footer {
 
 .footer p {
     font-size: 22px;
+}
+
+nav, .hero, .information, .quote, .sign-up, .footer {
+    padding-left: 256px;
+    padding-right: 256px;
 }
