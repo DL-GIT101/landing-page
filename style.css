@@ -177,3 +177,12 @@ nav, .hero, .information, .quote, .sign-up, .footer {
     padding-left: 256px;
     padding-right: 256px;
 }
+
+.footer{
+    justify-content: center;
+    padding: 36px;
+}
+
+.footer p {
+    font-size: 22px;
+}
